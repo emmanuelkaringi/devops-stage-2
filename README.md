@@ -30,5 +30,5 @@ To get started with this template with **Docker**, please follow the below instr
     POSTGRES_DB=app
     ```
 2. **Build Docker Containers** - Navigate to the root directory `cd devops-stage-2` and run: `docker-compose build`
-3. **Start Docker Containers** - Once the build process completes, start the Docker containers - `docker-compose up -d`
-4. **Stop the Application** - To stop the Docker containers and remove containers, networks, volumes, and images created by `docker-compose up -d`, press Ctrl+C in the terminal where Docker is running, and then run: `docker-compose down`
+3. **Start Docker Containers** - Once the build process completes, start the Docker containers - `docker-compose up -d` or `docker-compose up`
+4. **Stop the Application** - To stop the Docker containers and remove containers, networks, volumes, and images created by `docker-compose up -d`, run: `docker-compose down`. If you used `docker-compose up` press Ctrl+C in the terminal where Docker is running, and then run: `docker-compose down`
